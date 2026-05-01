@@ -507,9 +507,10 @@ a.contact-value:hover { color: var(--wine); opacity: 1; }
 }
 .footer-brand { display: flex; flex-direction: column; }
 .footer-logo {
-  height: 56px;
+  height: 44px;
   width: auto;
   margin-bottom: 16px;
+  opacity: 0.95;
 }
 .footer-tagline {
   font-family: var(--font-serif);
@@ -572,6 +573,7 @@ a.contact-value:hover { color: var(--wine); opacity: 1; }
   section { padding: 80px 0; }
   .header-container { height: 76px; }
   .logo-img { height: 44px; }
+  .footer-logo { height: 38px; }
 
   .nav-links {
     position: fixed;
@@ -609,6 +611,7 @@ a.contact-value:hover { color: var(--wine); opacity: 1; }
 @media (max-width: 480px) {
   .container { padding: 0 20px; }
   .logo-img { height: 38px; }
+  .footer-logo { height: 34px; }
   .header-container { height: 68px; }
   .nav-links { top: 68px; }
   .hero-content { padding: 90px 20px 60px; }
