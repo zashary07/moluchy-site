@@ -507,10 +507,9 @@ a.contact-value:hover { color: var(--wine); opacity: 1; }
 }
 .footer-brand { display: flex; flex-direction: column; }
 .footer-logo {
-  height: 48px;
+  height: 56px;
   width: auto;
   margin-bottom: 16px;
-  filter: brightness(0) invert(0.94) sepia(1) hue-rotate(320deg) saturate(0.5);
 }
 .footer-tagline {
   font-family: var(--font-serif);
